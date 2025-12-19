@@ -30,7 +30,23 @@ A semantic search API for eCommerce product catalog using RAG (Retrieval Augment
 ### Prerequisites
 - Python 3.10+ recommended
 
-### Installation Steps
+### Quick Start (One Command)
+
+Run the automated setup script to install all packages and set up the environment:
+
+**Windows:**
+```bash
+./setup.bat
+```
+
+**Linux/macOS:**
+```bash
+./setup.sh
+```
+
+This will create the virtual environment, install all dependencies, configure `.env`, build the vector index, and start the API server.
+
+### Manual Installation Steps
 
 1. **Create a virtual environment and install dependencies**
 ```bash
